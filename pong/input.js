@@ -17,6 +17,7 @@ document.addEventListener('keydown', function(event) {
 			window.game.rockets[0].aiTarget = undefined
 		}
 	}
+	event.preventDefault()
 })
 
 document.addEventListener('keyup', function(event) {
